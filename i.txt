@@ -1,0 +1,13 @@
+if(s1<s2){
+                while(s1<s2){
+                s1+=v1;
+                c1++;
+                }
+            }
+            if(s1>s2){
+                while(s2 !=s1){
+                    s2+=v2;
+                    c2++;
+                    if(s2>s1)
+                    break;
+                }
